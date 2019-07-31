@@ -142,15 +142,15 @@ body {
 }
 
 body {
-  width: 1295px;
-  padding: 1%;
+  width: 1260px;
+  margin: 1%;
   background-color: black;
   
 }
 /* Navigation .css*/
 
 .nav-container {
-  width: 100%;
+  width: 99%;
   background-color: red;
   display: flex;
   flex-flow: row nowrap;
@@ -164,10 +164,11 @@ a {
   margin: 0 auto;
   padding: 1.5%;
 }
+/*jumbo tron*/
 
 header {
   background-color: darkred;
-  width: 100%;
+  width: 99%;
   text-align: center;
   margin: 1% 0% 1% 0%;
 }
@@ -177,26 +178,26 @@ header p {
   margin: 0 auto;
   padding: 1%;
 }
+/*main intro*/
 
 .img-intro-container {
-  width: 100%;
-  margin: 0 auto;
+  width: 99%;
+  margin: 0%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
   background-color: red;
-  padding: 2%;
 }
 
 .img-intro {
-  width: 40%;
+  width: 45%;
   margin: 2%;
   padding: 2%;
   background-color: maroon;
 }
 
 .text-intro-container {
-  width: 40%;
+  width: 45%;
   margin: 2%;
   padding: 2%;
   background-color: maroon;
@@ -209,7 +210,7 @@ header p {
   justify-content: center;
   margin: 0 auto;
   border: 2px solid black;
-  background-color: royalblue;
+  background-color: rgba(218, 96, 49, 0.781);
   padding: 5%;
   height: 100%;
 }
@@ -233,6 +234,11 @@ article p {
   text-align: left;
   padding: 3%;
   line-height: 150%;
+}
+
+/*.img-intro-container two reverse img*/ 
+.two {
+  flex-flow: row-reverse nowrap;
 }
 
 

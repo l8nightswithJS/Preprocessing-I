@@ -137,16 +137,21 @@ body {
 
 /* Body set to width 1295px for desktop view*/
 
+* {
+  color: white;
+}
+
 body {
   width: 1295px;
   padding: 1%;
-  background-color: skyblue;
+  background-color: black;
+  
 }
 /* Navigation .css*/
 
 .nav-container {
   width: 100%;
-  background-color: lightskyblue;
+  background-color: red;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
@@ -154,7 +159,6 @@ body {
 }
 
 a {
-  color: black;
   text-decoration: none;
   font-size: 16px;
   margin: 0 auto;
@@ -162,7 +166,7 @@ a {
 }
 
 header {
-  background-color: cyan;
+  background-color: darkred;
   width: 100%;
   text-align: center;
   margin: 1% 0% 1% 0%;
@@ -178,21 +182,21 @@ header p {
   width: 100%;
   display: flex;
   flex: row nowrap;
-  background-color: lightskyblue;
+  background-color: red;
 }
 
 .img-intro {
   width: 35%;
   padding: 3%;
   margin: 0 auto;
-  background-color: cyan;
+  background-color: maroon;
 }
 
 .text-intro-container {
   width: 35%;
   margin: 0 auto;
   padding: 3%;
-  background-color: cyan;
+  background-color: maroon;
 
 }
 
@@ -203,6 +207,19 @@ header p {
   margin: 0 auto;
 }
 
-article h1, p {
+article h1 {
   text-align: center;
+  font-size: 20px;
+  padding-bottom: 2%;
 }
+
+article h2 {
+  padding: 2%;
+}
+
+article p {
+  text-align: center;
+  padding: 1%;
+}
+
+
